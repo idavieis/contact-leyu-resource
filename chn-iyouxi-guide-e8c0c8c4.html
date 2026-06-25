@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日常游戏查询·对照与延伸 — 爱游戏介绍</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #fbfbf9;
+      color: #2a2a2a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+      padding: 2.5rem 1.2rem 4rem;
+    }
+    .page-wrap {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    /* 开场 */
+    .opening {
+      margin-bottom: 2.4rem;
+    }
+    .opening p {
+      font-size: 1.1rem;
+      letter-spacing: 0.02em;
+      color: #3c3c3c;
+    }
+    .opening .short-line {
+      font-size: 1.5rem;
+      font-weight: 350;
+      color: #1e2b2e;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+      border-left: 4px solid #b3c8c0;
+      padding-left: 1rem;
+    }
+    /* 承接段落 */
+    .context {
+      margin-bottom: 2.8rem;
+    }
+    .context p {
+      margin-bottom: 1.2rem;
+    }
+    .context a {
+      color: #1f5c5a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #b8cfc9;
+    }
+    .context a:hover {
+      color: #0a3b3a;
+      text-decoration-color: #2c7a75;
+    }
+    /* 特点列表 */
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem 1.8rem;
+      margin: 2rem 0 2.6rem;
+    }
+    .feature-item {
+      flex: 1 1 200px;
+      background: #f6f4ef;
+      padding: 1.5rem 1.2rem 1.2rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s, background 0.15s;
+    }
+    .feature-item:hover {
+      background: #f0ede6;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    }
+    .feature-item h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      color: #1e3b3a;
+      margin-bottom: 0.6rem;
+      border-bottom: 1px dashed #d0cec4;
+      padding-bottom: 0.4rem;
+    }
+    .feature-item p {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: #4b4b4b;
+    }
+    /* 场景小段 */
+    .scenario-note {
+      background: #f9f7f2;
+      padding: 1.6rem 1.6rem 1.8rem;
+      border-radius: 24px;
+      margin: 2.4rem 0;
+    }
+    .scenario-note p {
+      margin-bottom: 1rem;
+    }
+    .scenario-note p:last-child {
+      margin-bottom: 0;
+    }
+    .scenario-note .tag {
+      display: inline-block;
+      background: #e7e4da;
+      font-size: 0.75rem;
+      padding: 0.2rem 1rem;
+      border-radius: 30px;
+      color: #3e3e3e;
+      margin-right: 0.5rem;
+    }
+    /* 温和结尾 */
+    .closing {
+      border-top: 1px solid #e2dfd6;
+      padding-top: 2rem;
+      margin-top: 1.8rem;
+      font-size: 0.95rem;
+      color: #4d4d4d;
+    }
+    .closing a {
+      color: #1f5c5a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #b8cfc9;
+    }
+    .closing a:hover {
+      color: #083b39;
+    }
+    /* 辅助文本 */
+    .muted {
+      color: #7a7a7a;
+      font-size: 0.85rem;
+    }
+    /* 响应式细节 */
+    @media (max-width: 520px) {
+      body { padding: 1.8rem 1rem 3rem; }
+      .opening .short-line { font-size: 1.2rem; }
+      .feature-item { flex: 1 1 100%; }
+      .scenario-note { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- 开场短句 -->
+  <div class="opening">
+    <div class="short-line">
+      翻看记录，对照条目，<br>从一条线索延展到另一条。
+    </div>
+    <p>搜索、查阅、比对——日常中与游戏相关的动作，往往不是一次点击就能完成。你会打开多个页面，把信息放在一起，慢慢看。</p>
+  </div>
+
+  <!-- 承接段落：从日常查询、对照和延伸阅读的角度 -->
+  <div class="context">
+    <p>有时只想确认一个名字、一段描述，或者看看某部作品在不同语境下如何被归类。这时一个集中存放、结构清晰的站点就能省下很多来回切换的时间。<a href="https://chn-iyouxi.com">爱游戏</a> 就是一个可以反复回来对照的地方——它的页面不堆砌，条目之间留有余地，方便你在阅读中自然跳转，从一条记录引出更多线索。</p>
+    <p>比起一次性浏览，更常见的使用方式是：先查一两个条目，再顺着关联内容延伸出去。翻看的过程里，偶尔会发现原本没留意的细节，这种延伸本身就成了另一种乐趣。</p>
+  </div>
+
+  <!-- 特点列表（不重复之前风格） -->
+  <div class="feature-grid">
+    <div class="feature-item">
+      <h3>条目平实</h3>
+      <p>描述克制，不夸大，不堆叠标签。每一条都像整理过的笔记，方便快速对照。</p>
+    </div>
+    <div class="feature-item">
+      <h3>内容可延伸</h3>
+      <p>页面间有自然的关联路径，从一处出发可以慢慢走远，适合安静地浏览。</p>
+    </div>
+    <div class="feature-item">
+      <h3>版式留白</h3>
+      <p>阅读区域宽松，没有拥挤的模块，减少视觉负担。在手机和电脑上都保持一致的呼吸感。</p>
+    </div>
+    <div class="feature-item">
+      <h3>日常实用</h3>
+      <p>不管是快速查一个名称，还是静下来从头到尾看一遍，都能找到合适的节奏。</p>
+    </div>
+  </div>
+
+  <!-- 场景提示 -->
+  <div class="scenario-note">
+    <p><span class="tag">常见场景</span> 写文章时需要核对作品名；和朋友聊起某款老游戏想确认细节；整理自己的兴趣列表，顺便看看有没有遗漏的条目。</p>
+    <p><span class="tag">延伸阅读</span> 从一条记录开始，顺着页面里的关联条目一路看下去，有时会意外发现之前没注意过的作品或版本。</p>
+    <p class="muted" style="margin-top: 0.6rem;">—— 不需要每次都从头开始，把 <a href="https://chn-iyouxi.com">爱游戏</a> 放在书签里，需要的时候打开就好。</p>
+  </div>
+
+  <!-- FAQ 摘要（简洁，不做展开） -->
+  <div style="margin: 1.8rem 0 1.6rem; padding: 0.6rem 0; border-bottom: 1px solid #ece8df; border-top: 1px solid #ece8df;">
+    <p style="font-size: 0.88rem; color: #4b4b4b;"><strong style="font-weight: 500; color: #1e3b3a;">常见疑问简述</strong> 内容是否持续更新？—— 站点保持适度的增补节奏，不追求数量，条目经过筛选。移动端适配如何？—— 正文宽度自适应，阅读流畅。</p>
+  </div>
+
+  <!-- 温和结尾 -->
+  <div class="closing">
+    <p>整理这些内容的人，大概也和你一样——只是想好好地把游戏相关的线索理清楚，方便自己，也方便别人。不需要夸张的推荐语，一个认真维护的参考页面，本身就是最好的说明。</p>
+    <p style="margin-top: 1rem;">如果你也在日常中习惯留一些安静查阅的时间，<a href="https://chn-iyouxi.com">爱游戏</a> 或许能成为你常驻书签里的一个站点。</p>
+    <p class="muted" style="margin-top: 1.2rem;">—— 对照、延伸、随手翻看</p>
+  </div>
+
+</div>
+</body>
+</html>
